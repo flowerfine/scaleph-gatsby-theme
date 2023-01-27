@@ -1,17 +1,9 @@
-> This Theme is modified from [antvis/gatsby-theme-antv](https://github.com/antvis/gatsby-theme-antv), thanks for their contribute.
+> This Theme is modified from [@opensumi/gatsby-theme](https://github.com/opensumi/gatsby-theme), thanks for their contribute.
 
 <div align="center">
+# Scaleph Gatsby Theme for website
 
-<img width="1200" alt="homepage" src="https://img.alicdn.com/imgextra/i1/O1CN01OlP4Ty27Wk3MXFSGX_!!6000000007805-2-tps-1369-889.png">
-
-# Gatsby Theme for OpenSumi
-
-✨ Polished Gatsby theme for documentation site.
-
-[![](https://flat.badgen.net/npm/v/@opensumi/gatsby-theme?icon=npm)](https://www.npmjs.com/package/@opensumi/gatsby-theme)
-[![NPM downloads](http://img.shields.io/npm/dm/@opensumi/gatsby-theme.svg?style=flat-square)](http://npmjs.com/@opensumi/gatsby-theme)
-![CI status](https://github.com/opensumi/gatsby-theme/workflows/Node%20CI/badge.svg)
-![prettier code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
+✨ Polished Gatsby theme for documentation website.
 
 </div>
 
