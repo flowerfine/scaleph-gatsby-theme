@@ -73,3 +73,6 @@ yarn-error.log
 
 dist
 package-lock.json
+
+.idea/
+.DS_Store
