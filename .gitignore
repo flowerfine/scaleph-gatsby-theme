@@ -69,7 +69,7 @@ yarn-error.log
 .yarn-integrity
 
 .tmp
-@opensumi/gatsby-theme/lib
+@scaleph/scaleph-gatsby-theme/lib
 
 dist
 package-lock.json

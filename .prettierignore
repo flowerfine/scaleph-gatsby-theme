@@ -2,4 +2,4 @@
 package.json
 package-lock.json
 public
-@opensumi/gatsby-theme/lib
+@scaleph/scaleph-gatsby-theme/lib

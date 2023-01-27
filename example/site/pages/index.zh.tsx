@@ -1,12 +1,12 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import SEO from '@opensumi/gatsby-theme/site/components/Seo';
+import SEO from '@scaleph/scaleph-gatsby-theme/site/components/Seo';
 import { useTranslation } from 'react-i18next';
-import Banner from '@opensumi/gatsby-theme/site/components/Banner';
-import Companies from '@opensumi/gatsby-theme/site/components/Companies';
-import Features from '@opensumi/gatsby-theme/site/components/Features';
-import Cases from '@opensumi/gatsby-theme/site/components/Cases';
-import BannerSVG from '@opensumi/gatsby-theme/site/components/BannerSVG';
+import Banner from '@scaleph/scaleph-gatsby-theme/site/components/Banner';
+import Companies from '@scaleph/scaleph-gatsby-theme/site/components/Companies';
+import Features from '@scaleph/scaleph-gatsby-theme/site/components/Features';
+import Cases from '@scaleph/scaleph-gatsby-theme/site/components/Cases';
+import BannerSVG from '@scaleph/scaleph-gatsby-theme/site/components/BannerSVG';
 
 const IndexPage: React.FC = () => {
   const query = graphql`

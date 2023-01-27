@@ -1,6 +1,6 @@
 {
-  "name": "@opensumi/gatsby-theme",
-  "description": "OpenSumi Gaysby Theme",
+  "name": "@scaleph/scaleph-gatsby-theme",
+  "description": "Scaleph Gaysby Theme",
   "version": "2.1.0",
   "license": "MIT",
   "keywords": [
@@ -16,16 +16,16 @@
     "serve": "gatsby serve",
     "prerelease": "npm run compile:components",
     "release": "standard-version",
-    "copy:components": "mkdir -p lib && cp -R .tmp/@opensumi/gatsby-theme/site/components lib && cp -R .tmp/@opensumi/gatsby-theme/site/*.* lib && cp site/components/*.less ./lib/components && cp site/common.json ./lib && cp -R site/images ./lib",
+    "copy:components": "mkdir -p lib && cp -R .tmp/@scaleph/scaleph-gatsby-theme/site/components lib && cp -R .tmp/@scaleph/scaleph-gatsby-theme/site/*.* lib && cp site/components/*.less ./lib/components && cp site/common.json ./lib && cp -R site/images ./lib",
     "compile:components": "rm -rf .tmp lib && ../../node_modules/.bin/tsc --outDir .tmp --noEmit false -d && npm run copy:components",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/opensumi/gatsby-theme"
+    "url": "https://github.com/flowerfine/scaleph-gatsby-theme"
   },
   "bugs": {
-    "url": "https://github.com/opensumi/gatsby-theme/issues"
+    "url": "https://github.com/flowerfine/scaleph-gatsby-theme/issues"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-umd": "^7.18.0",
