@@ -3,7 +3,8 @@ name: Preview Build
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-  push: [main]
+  push:
+    branches: [main]
 
 jobs:
   build-preview:
