@@ -36,9 +36,11 @@ class RedirectIndex extends React.PureComponent<WithTranslation> {
     return (
       <>
         <Seo
-          title={title || 'OpenSumi'}
-          titleSuffix={t('OpenSumi 框架')}
-          description={t('一款帮助你快速搭建本地和云端 IDE 的框架。')}
+          title={title || 'Scaleph'}
+          titleSuffix={t('Scaleph')}
+          description={t(
+            '基于 Flink 和 Kubernetes 打造的开放数据平台，具备 Flink 和 SeaTunnel 任务管理能力。',
+          )}
           lang={this.langKey}
         />
         <PageLoading />
