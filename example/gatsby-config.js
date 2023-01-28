@@ -1,25 +1,25 @@
 module.exports = {
   plugins: [
     {
-      resolve: '@opensumi/gatsby-theme',
-      options: {
-        GATrackingId: `UA-148148901-11`,
-      },
+      resolve: '@scaleph/scaleph-gatsby-theme',
+      // options: {
+      //   GATrackingId: `UA-148148901-11`,
+      // },
     },
   ],
   siteMetadata: {
-    title: 'OpenSumi',
+    title: 'Scaleph',
     description:
-      '一款帮助你快速搭建本地和云端 IDE 的框架 - A framework helps you quickly build Cloud or Desktop IDE products.',
-    siteUrl: 'https://opensumi.com',
+      '基于 Flink 和 Kubernetes 的开放数据平台，支持基于 SeaTunnel 的拖拉拽数据集成和 YARN 与 Kubernetes 集群上的 Flink 任务管理 - Open data platform based on Flink and Kubernetes, supports web-ui click-and-drop data integration with SeaTunnel on Flink, manage flink jar job both YARN and Kubernetes',
+    siteUrl: 'https://flowerfine.github.io/scaleph/',
     logo: {
-      img: 'https://img.alicdn.com/imgextra/i1/O1CN01XTErpN24JVlOVVK2I_!!6000000007370-2-tps-300-300.png',
-      link: 'https://opensumi.com',
+      img: 'https://github.com/flowerfine/scaleph/raw/e9151fec13875881c38fece98588e9dee371575f/scaleph-ui-react/public/scaleph.svg',
+      link: 'https://flowerfine.github.io/scaleph/',
     },
     logoUrl:
-      'https://img.alicdn.com/imgextra/i1/O1CN01XTErpN24JVlOVVK2I_!!6000000007370-2-tps-300-300.png',
-    githubUrl: 'https://github.com/opensumi/core',
-    docsUrl: 'https://github.com/opensumi/doc',
+      'https://github.com/flowerfine/scaleph/raw/e9151fec13875881c38fece98588e9dee371575f/scaleph-ui-react/public/scaleph.svg',
+    githubUrl: 'https://flowerfine.github.io/scaleph/',
+    docsUrl: 'https://flowerfine.github.io/scaleph-website/',
     navs: [
       {
         slug: 'docs/develop/how-to-contribute',

@@ -18,10 +18,10 @@ module.exports = ({
 }) => {
   const config = {
     siteMetadata: {
-      title: `OpenSumi`,
-      description: `OpenSumi Doc Theme`,
-      siteUrl: 'https://opensumi.com',
-      githubUrl: 'https://github.com/opensumi/gatsby-theme',
+      title: `Scaleph`,
+      description: `Scaleph Doc Website Theme`,
+      siteUrl: 'https://flowerfine.github.io/scaleph-website',
+      githubUrl: 'https://github.com/flowerfine/scaleph-gatsby-theme',
       navs: [],
       docs: [],
       examples: [],
@@ -130,7 +130,7 @@ module.exports = ({
           background_color: theme['primary-color'],
           theme_color: theme['primary-color'],
           display: `minimal-ui`,
-          icon: require.resolve(`./site/images/favicon.png`), // This path is relative to the root of the site.
+          icon: require.resolve(`./site/images/favicon.ico`), // This path is relative to the root of the site.
         },
       },
       `gatsby-plugin-typescript`,

@@ -30,22 +30,3 @@ exports.shouldUpdateScroll = ({ routerProps, prevRouterProps }) => {
   }
   return true;
 };
-
-/*
- * Custom Layout Footer
- * https://github.com/react-component/footer#api
- *
- */
-
-const React = require('react');
-
-exports.wrapPageElement = ({ element, props }) => {
-  return React.cloneElement(element, {
-    ...props,
-    ...element.props,
-    footerProps: {
-      bottom: `Copyright © 2019-present Alibaba Group Holding Limited, Ant Group Co. Ltd.`,
-    },
-    showCopyRight: true,
-  });
-};

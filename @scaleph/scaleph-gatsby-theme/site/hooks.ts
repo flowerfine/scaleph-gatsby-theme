@@ -48,10 +48,10 @@ export const useLogoLink = ({
   let defaultLogoLink;
   if (link) {
     defaultLogoLink = link;
-  } else if (siteUrl === 'https://opensumi.com') {
+  } else if (siteUrl === 'https://flowerfine.github.io/scaleph-website') {
     defaultLogoLink = `/${lang}`;
   } else {
-    defaultLogoLink = `https://opensumi.com/${lang}`;
+    defaultLogoLink = `https://flowerfine.github.io/scaleph-website/${lang}`;
   }
 
   return [defaultLogoLink];

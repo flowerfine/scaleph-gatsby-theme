@@ -251,7 +251,7 @@ const Layout: React.FC<LayoutProps> = ({
       {!isExamplePage && (
         <Footer
           githubUrl={githubUrl}
-          rootDomain="https://opensumi.com"
+          rootDomain="https://flowerfine.github.io/scaleph-website"
           location={location}
           {...footerProps}
         />
