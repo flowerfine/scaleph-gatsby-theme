@@ -191,10 +191,7 @@ const Footer: React.FC<FooterProps> = ({
         [styles.withMenu]: withMenu,
         [styles.collapsed]: collapsed,
       })}
-      bottom={
-        bottom ||
-        'Copyright © 2019-present Alibaba Group Holding Limited, Ant Group Co. Ltd.'
-      }
+      bottom={bottom || 'Scaleph'}
       {...omit(restProps, ['githubUrl'])}
     />
   );

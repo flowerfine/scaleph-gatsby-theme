@@ -106,18 +106,20 @@ const IndexPage: React.FC = () => {
 
   return (
     <>
-      <SEO title={t('OpenSumi 框架')} lang={i18n.language} />
+      <SEO title={t('Scaleph')} lang={i18n.language} />
       <Banner
         coverImage={<BannerSVG />}
         logoUrl={logoUrl}
-        title={t('OpenSumi')}
-        description={t('一款帮助你快速搭建本地和云端 IDE 的框架。')}
+        title={t('Scaleph')}
+        description={t(
+          '基于 Flink 和 Kubernetes 打造的开放数据平台，具备 Flink 和 SeaTunnel 任务管理能力。',
+        )}
         className="banner"
         buttons={bannerButtons}
       />
-      <Cases cases={cases} />
-      <Features title={t('能力特性')} features={features} />
-      <Companies title={t('合作公司')} companies={companies} />
+      {/*<Cases cases={cases} />*/}
+      {/*<Features title={t('能力特性')} features={features} />*/}
+      {/*<Companies title={t('合作公司')} companies={companies} />*/}
     </>
   );
 };
