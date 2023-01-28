@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/flowerfine/scaleph-gatsby-theme/compare/v2.2.0...v1.1.0) (2023-01-28)
+
 ## 2.2.0 (2023-01-28)
 
 ## [2.1.0](https://github.com/opensumi/gatsby-theme/compare/v2.0.6...v2.1.0) (2022-09-28)
