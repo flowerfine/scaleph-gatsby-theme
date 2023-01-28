@@ -49,7 +49,7 @@ const Banner: React.FC<BannerProps> = ({
 }) => {
   const { t, i18n } = useTranslation();
   const lang = i18n.language.includes('zh') ? 'zh' : 'en';
-  const notificationsUrl = `https://my-json-server.typicode.com/opensumi/website-data/notifications?lang=${lang}`;
+  const notificationsUrl = `https://my-json-server.typicode.com/flowerfine/scaleph-website-data/notifications?lang=${lang}`;
 
   const query = graphql`
     query SiteBannerQuery {
@@ -133,7 +133,7 @@ const Banner: React.FC<BannerProps> = ({
       <div className={styles.content}>
         <div className={styles.text}>
           <div className={classNames(styles.title, 'banner-title')}>
-            <img className={styles.logo} src={logoUrl} alt="opensumi" />
+            <img className={styles.logo} src={logoUrl} alt="scaleph" />
             <div className={styles.label}>{title}</div>
           </div>
           <p className={classNames(styles.description, 'banner-description')}>

@@ -186,12 +186,13 @@ const Footer: React.FC<FooterProps> = ({
     <RCFooter
       maxColumnsPerRow={5}
       theme={theme}
-      columns={columns || getColums()}
+      // columns={columns || getColums()}
+      columns={columns || []}
       className={classnames(styles.footer, {
         [styles.withMenu]: withMenu,
         [styles.collapsed]: collapsed,
       })}
-      bottom={bottom || 'Scaleph'}
+      bottom={bottom || ''}
       {...omit(restProps, ['githubUrl'])}
     />
   );
